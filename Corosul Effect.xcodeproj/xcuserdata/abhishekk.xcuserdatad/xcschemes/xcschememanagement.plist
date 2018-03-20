@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Corosul Effect.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4CAC4528204FCB7C00CBA2FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CAC453C204FCB7C00CBA2FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CAC4547204FCB7D00CBA2FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

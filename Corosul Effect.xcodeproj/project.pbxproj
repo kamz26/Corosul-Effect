@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0657D8816A32B88691DE591B /* Pods_Corosul_EffectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5722888541520DBE25C988A1 /* Pods_Corosul_EffectUITests.framework */; };
+		4CAC452D204FCB7C00CBA2FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAC452C204FCB7C00CBA2FF /* AppDelegate.swift */; };
+		4CAC452F204FCB7C00CBA2FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAC452E204FCB7C00CBA2FF /* ViewController.swift */; };
+		4CAC4532204FCB7C00CBA2FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CAC4530204FCB7C00CBA2FF /* Main.storyboard */; };
+		4CAC4534204FCB7C00CBA2FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CAC4533204FCB7C00CBA2FF /* Assets.xcassets */; };
+		4CAC4537204FCB7C00CBA2FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CAC4535204FCB7C00CBA2FF /* LaunchScreen.storyboard */; };
+		4CAC4542204FCB7C00CBA2FF /* Corosul_EffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAC4541204FCB7C00CBA2FF /* Corosul_EffectTests.swift */; };
+		4CAC454D204FCB7D00CBA2FF /* Corosul_EffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAC454C204FCB7D00CBA2FF /* Corosul_EffectUITests.swift */; };
+		4CAC455B204FDF2000CBA2FF /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAC455A204FDF2000CBA2FF /* ImageViewCell.swift */; };
+		544E5DB997266D4CD71AC6DD /* Pods_Corosul_EffectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87DBBA9950927717C42336FE /* Pods_Corosul_EffectTests.framework */; };
+		67527C888AF58B2FC6463721 /* Pods_Corosul_Effect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1527556E2C1C1BE62405E0 /* Pods_Corosul_Effect.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CAC453E204FCB7C00CBA2FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CAC4521204FCB7C00CBA2FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CAC4528204FCB7C00CBA2FF;
+			remoteInfo = "Corosul Effect";
+		};
+		4CAC4549204FCB7D00CBA2FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CAC4521204FCB7C00CBA2FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CAC4528204FCB7C00CBA2FF;
+			remoteInfo = "Corosul Effect";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E1527556E2C1C1BE62405E0 /* Pods_Corosul_Effect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Corosul_Effect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC29C4BDFFAF89B376C0BED /* Pods-Corosul EffectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Corosul EffectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Corosul EffectUITests/Pods-Corosul EffectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CAC4529204FCB7C00CBA2FF /* Corosul Effect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Corosul Effect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAC452C204FCB7C00CBA2FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CAC452E204FCB7C00CBA2FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CAC4531204FCB7C00CBA2FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CAC4533204FCB7C00CBA2FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CAC4536204FCB7C00CBA2FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CAC4538204FCB7C00CBA2FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CAC453D204FCB7C00CBA2FF /* Corosul EffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Corosul EffectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAC4541204FCB7C00CBA2FF /* Corosul_EffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Corosul_EffectTests.swift; sourceTree = "<group>"; };
+		4CAC4543204FCB7C00CBA2FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CAC4548204FCB7D00CBA2FF /* Corosul EffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Corosul EffectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAC454C204FCB7D00CBA2FF /* Corosul_EffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Corosul_EffectUITests.swift; sourceTree = "<group>"; };
+		4CAC454E204FCB7D00CBA2FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CAC455A204FDF2000CBA2FF /* ImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
+		51F6C28E049291D17A7BBD0C /* Pods-Corosul EffectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Corosul EffectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Corosul EffectUITests/Pods-Corosul EffectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5722888541520DBE25C988A1 /* Pods_Corosul_EffectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Corosul_EffectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C83A9871BD18EA1573FC8C /* Pods-Corosul Effect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Corosul Effect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Corosul Effect/Pods-Corosul Effect.debug.xcconfig"; sourceTree = "<group>"; };
+		87DBBA9950927717C42336FE /* Pods_Corosul_EffectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Corosul_EffectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE740550B3FEB263F76AB50 /* Pods-Corosul Effect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Corosul Effect.release.xcconfig"; path = "Pods/Target Support Files/Pods-Corosul Effect/Pods-Corosul Effect.release.xcconfig"; sourceTree = "<group>"; };
+		D4D4E6EE6B8DFF4EDF68B4B0 /* Pods-Corosul EffectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Corosul EffectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Corosul EffectTests/Pods-Corosul EffectTests.release.xcconfig"; sourceTree = "<group>"; };
+		F45BCF4DD6A9A02727E0B341 /* Pods-Corosul EffectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Corosul EffectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Corosul EffectTests/Pods-Corosul EffectTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CAC4526204FCB7C00CBA2FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67527C888AF58B2FC6463721 /* Pods_Corosul_Effect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAC453A204FCB7C00CBA2FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544E5DB997266D4CD71AC6DD /* Pods_Corosul_EffectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAC4545204FCB7D00CBA2FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0657D8816A32B88691DE591B /* Pods_Corosul_EffectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27D9C52461AD64AB208F6934 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82C83A9871BD18EA1573FC8C /* Pods-Corosul Effect.debug.xcconfig */,
+				8AE740550B3FEB263F76AB50 /* Pods-Corosul Effect.release.xcconfig */,
+				F45BCF4DD6A9A02727E0B341 /* Pods-Corosul EffectTests.debug.xcconfig */,
+				D4D4E6EE6B8DFF4EDF68B4B0 /* Pods-Corosul EffectTests.release.xcconfig */,
+				3EC29C4BDFFAF89B376C0BED /* Pods-Corosul EffectUITests.debug.xcconfig */,
+				51F6C28E049291D17A7BBD0C /* Pods-Corosul EffectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4CAC4520204FCB7C00CBA2FF = {
+			isa = PBXGroup;
+			children = (
+				4CAC452B204FCB7C00CBA2FF /* Corosul Effect */,
+				4CAC4540204FCB7C00CBA2FF /* Corosul EffectTests */,
+				4CAC454B204FCB7D00CBA2FF /* Corosul EffectUITests */,
+				4CAC452A204FCB7C00CBA2FF /* Products */,
+				27D9C52461AD64AB208F6934 /* Pods */,
+				C3FAD8C03A87C451F72AD6D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CAC452A204FCB7C00CBA2FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CAC4529204FCB7C00CBA2FF /* Corosul Effect.app */,
+				4CAC453D204FCB7C00CBA2FF /* Corosul EffectTests.xctest */,
+				4CAC4548204FCB7D00CBA2FF /* Corosul EffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CAC452B204FCB7C00CBA2FF /* Corosul Effect */ = {
+			isa = PBXGroup;
+			children = (
+				4CAC455A204FDF2000CBA2FF /* ImageViewCell.swift */,
+				4CAC452C204FCB7C00CBA2FF /* AppDelegate.swift */,
+				4CAC452E204FCB7C00CBA2FF /* ViewController.swift */,
+				4CAC4530204FCB7C00CBA2FF /* Main.storyboard */,
+				4CAC4533204FCB7C00CBA2FF /* Assets.xcassets */,
+				4CAC4535204FCB7C00CBA2FF /* LaunchScreen.storyboard */,
+				4CAC4538204FCB7C00CBA2FF /* Info.plist */,
+			);
+			path = "Corosul Effect";
+			sourceTree = "<group>";
+		};
+		4CAC4540204FCB7C00CBA2FF /* Corosul EffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CAC4541204FCB7C00CBA2FF /* Corosul_EffectTests.swift */,
+				4CAC4543204FCB7C00CBA2FF /* Info.plist */,
+			);
+			path = "Corosul EffectTests";
+			sourceTree = "<group>";
+		};
+		4CAC454B204FCB7D00CBA2FF /* Corosul EffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CAC454C204FCB7D00CBA2FF /* Corosul_EffectUITests.swift */,
+				4CAC454E204FCB7D00CBA2FF /* Info.plist */,
+			);
+			path = "Corosul EffectUITests";
+			sourceTree = "<group>";
+		};
+		C3FAD8C03A87C451F72AD6D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E1527556E2C1C1BE62405E0 /* Pods_Corosul_Effect.framework */,
+				87DBBA9950927717C42336FE /* Pods_Corosul_EffectTests.framework */,
+				5722888541520DBE25C988A1 /* Pods_Corosul_EffectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CAC4528204FCB7C00CBA2FF /* Corosul Effect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAC4551204FCB7D00CBA2FF /* Build configuration list for PBXNativeTarget "Corosul Effect" */;
+			buildPhases = (
+				F2CBC6A32AD9554B9B8443BA /* [CP] Check Pods Manifest.lock */,
+				4CAC4525204FCB7C00CBA2FF /* Sources */,
+				4CAC4526204FCB7C00CBA2FF /* Frameworks */,
+				4CAC4527204FCB7C00CBA2FF /* Resources */,
+				E5FA5056A058B079B8DAE835 /* [CP] Embed Pods Frameworks */,
+				541494AD1B484E0E7C8FF652 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Corosul Effect";
+			productName = "Corosul Effect";
+			productReference = 4CAC4529204FCB7C00CBA2FF /* Corosul Effect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CAC453C204FCB7C00CBA2FF /* Corosul EffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAC4554204FCB7D00CBA2FF /* Build configuration list for PBXNativeTarget "Corosul EffectTests" */;
+			buildPhases = (
+				EC3209A005975E9E6B9AF1FC /* [CP] Check Pods Manifest.lock */,
+				4CAC4539204FCB7C00CBA2FF /* Sources */,
+				4CAC453A204FCB7C00CBA2FF /* Frameworks */,
+				4CAC453B204FCB7C00CBA2FF /* Resources */,
+				0D7980470DF4DB6CD2F5CDC3 /* [CP] Embed Pods Frameworks */,
+				4D7BADCA7E09867CB1A06E78 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CAC453F204FCB7C00CBA2FF /* PBXTargetDependency */,
+			);
+			name = "Corosul EffectTests";
+			productName = "Corosul EffectTests";
+			productReference = 4CAC453D204FCB7C00CBA2FF /* Corosul EffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CAC4547204FCB7D00CBA2FF /* Corosul EffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAC4557204FCB7D00CBA2FF /* Build configuration list for PBXNativeTarget "Corosul EffectUITests" */;
+			buildPhases = (
+				65540DE5D095B0E46292CC85 /* [CP] Check Pods Manifest.lock */,
+				4CAC4544204FCB7D00CBA2FF /* Sources */,
+				4CAC4545204FCB7D00CBA2FF /* Frameworks */,
+				4CAC4546204FCB7D00CBA2FF /* Resources */,
+				5DE1A10BBACB9E166ADD522C /* [CP] Embed Pods Frameworks */,
+				243D950DFB6467E9EE136E6F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CAC454A204FCB7D00CBA2FF /* PBXTargetDependency */,
+			);
+			name = "Corosul EffectUITests";
+			productName = "Corosul EffectUITests";
+			productReference = 4CAC4548204FCB7D00CBA2FF /* Corosul EffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CAC4521204FCB7C00CBA2FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Abhishek K";
+				TargetAttributes = {
+					4CAC4528204FCB7C00CBA2FF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4CAC453C204FCB7C00CBA2FF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4CAC4528204FCB7C00CBA2FF;
+					};
+					4CAC4547204FCB7D00CBA2FF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4CAC4528204FCB7C00CBA2FF;
+					};
+				};
+			};
+			buildConfigurationList = 4CAC4524204FCB7C00CBA2FF /* Build configuration list for PBXProject "Corosul Effect" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CAC4520204FCB7C00CBA2FF;
+			productRefGroup = 4CAC452A204FCB7C00CBA2FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CAC4528204FCB7C00CBA2FF /* Corosul Effect */,
+				4CAC453C204FCB7C00CBA2FF /* Corosul EffectTests */,
+				4CAC4547204FCB7D00CBA2FF /* Corosul EffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CAC4527204FCB7C00CBA2FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAC4537204FCB7C00CBA2FF /* LaunchScreen.storyboard in Resources */,
+				4CAC4534204FCB7C00CBA2FF /* Assets.xcassets in Resources */,
+				4CAC4532204FCB7C00CBA2FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAC453B204FCB7C00CBA2FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAC4546204FCB7D00CBA2FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D7980470DF4DB6CD2F5CDC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Corosul EffectTests/Pods-Corosul EffectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		243D950DFB6467E9EE136E6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Corosul EffectUITests/Pods-Corosul EffectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D7BADCA7E09867CB1A06E78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Corosul EffectTests/Pods-Corosul EffectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		541494AD1B484E0E7C8FF652 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Corosul Effect/Pods-Corosul Effect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DE1A10BBACB9E166ADD522C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Corosul EffectUITests/Pods-Corosul EffectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65540DE5D095B0E46292CC85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Corosul EffectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5FA5056A058B079B8DAE835 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Corosul Effect/Pods-Corosul Effect-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Corosul Effect/Pods-Corosul Effect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC3209A005975E9E6B9AF1FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Corosul EffectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2CBC6A32AD9554B9B8443BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Corosul Effect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CAC4525204FCB7C00CBA2FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAC452F204FCB7C00CBA2FF /* ViewController.swift in Sources */,
+				4CAC455B204FDF2000CBA2FF /* ImageViewCell.swift in Sources */,
+				4CAC452D204FCB7C00CBA2FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAC4539204FCB7C00CBA2FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAC4542204FCB7C00CBA2FF /* Corosul_EffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAC4544204FCB7D00CBA2FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAC454D204FCB7D00CBA2FF /* Corosul_EffectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CAC453F204FCB7C00CBA2FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CAC4528204FCB7C00CBA2FF /* Corosul Effect */;
+			targetProxy = 4CAC453E204FCB7C00CBA2FF /* PBXContainerItemProxy */;
+		};
+		4CAC454A204FCB7D00CBA2FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CAC4528204FCB7C00CBA2FF /* Corosul Effect */;
+			targetProxy = 4CAC4549204FCB7D00CBA2FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CAC4530204FCB7C00CBA2FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CAC4531204FCB7C00CBA2FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CAC4535204FCB7C00CBA2FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CAC4536204FCB7C00CBA2FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CAC454F204FCB7D00CBA2FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CAC4550204FCB7D00CBA2FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CAC4552204FCB7D00CBA2FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82C83A9871BD18EA1573FC8C /* Pods-Corosul Effect.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RXS4X8DS6V;
+				INFOPLIST_FILE = "Corosul Effect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iphoneX.Corosul-Effect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CAC4553204FCB7D00CBA2FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AE740550B3FEB263F76AB50 /* Pods-Corosul Effect.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RXS4X8DS6V;
+				INFOPLIST_FILE = "Corosul Effect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iphoneX.Corosul-Effect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CAC4555204FCB7D00CBA2FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F45BCF4DD6A9A02727E0B341 /* Pods-Corosul EffectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Corosul EffectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iphoneX.Corosul-EffectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Corosul Effect.app/Corosul Effect";
+			};
+			name = Debug;
+		};
+		4CAC4556204FCB7D00CBA2FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4D4E6EE6B8DFF4EDF68B4B0 /* Pods-Corosul EffectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Corosul EffectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iphoneX.Corosul-EffectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Corosul Effect.app/Corosul Effect";
+			};
+			name = Release;
+		};
+		4CAC4558204FCB7D00CBA2FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC29C4BDFFAF89B376C0BED /* Pods-Corosul EffectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Corosul EffectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iphoneX.Corosul-EffectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Corosul Effect";
+			};
+			name = Debug;
+		};
+		4CAC4559204FCB7D00CBA2FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51F6C28E049291D17A7BBD0C /* Pods-Corosul EffectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Corosul EffectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iphoneX.Corosul-EffectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Corosul Effect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CAC4524204FCB7C00CBA2FF /* Build configuration list for PBXProject "Corosul Effect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAC454F204FCB7D00CBA2FF /* Debug */,
+				4CAC4550204FCB7D00CBA2FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAC4551204FCB7D00CBA2FF /* Build configuration list for PBXNativeTarget "Corosul Effect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAC4552204FCB7D00CBA2FF /* Debug */,
+				4CAC4553204FCB7D00CBA2FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAC4554204FCB7D00CBA2FF /* Build configuration list for PBXNativeTarget "Corosul EffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAC4555204FCB7D00CBA2FF /* Debug */,
+				4CAC4556204FCB7D00CBA2FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAC4557204FCB7D00CBA2FF /* Build configuration list for PBXNativeTarget "Corosul EffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAC4558204FCB7D00CBA2FF /* Debug */,
+				4CAC4559204FCB7D00CBA2FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CAC4521204FCB7C00CBA2FF /* Project object */;
+}
